@@ -17,6 +17,7 @@ ReactDOM.render(
   <InstantSearch
     searchClient={searchClient}
     indexName={INDEX_NAME}
+    suppressExperimentalWarning
   >
     <App />
   </InstantSearch>,
